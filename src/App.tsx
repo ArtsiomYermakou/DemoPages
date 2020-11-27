@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css'
+import {HeaderWrap} from "./header/Header";
+import {HashRouter, Route, Switch} from "react-router-dom";
+import {StartPage} from "./startPage/StartPage";
+import {StepPage} from './stepPage/StepPage';
+import {Content} from "antd/lib/layout/layout";
+import {ErrorPage} from "./errorPage/ErrorPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <HashRouter>
+            <HeaderWrap/>
+            <Switch>
+                <Content>
+                    <Route exact path='/' component={StartPage}/>
+                    <Route exact path='/stepPage' component={StepPage}/>
+                    <Route path="/errorPage" component={ErrorPage}/>
+                </Content>
+            </Switch>
+        </HashRouter>
+    );
 }
 
 export default App;
