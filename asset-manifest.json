@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DemoPages/static/css/main.2ba2a9c0.chunk.css",
+    "main.js": "/DemoPages/static/js/main.a289947b.chunk.js",
+    "main.js.map": "/DemoPages/static/js/main.a289947b.chunk.js.map",
+    "runtime-main.js": "/DemoPages/static/js/runtime-main.ed6111fa.js",
+    "runtime-main.js.map": "/DemoPages/static/js/runtime-main.ed6111fa.js.map",
+    "static/css/2.f3081fb4.chunk.css": "/DemoPages/static/css/2.f3081fb4.chunk.css",
+    "static/js/2.a43a11b8.chunk.js": "/DemoPages/static/js/2.a43a11b8.chunk.js",
+    "static/js/2.a43a11b8.chunk.js.map": "/DemoPages/static/js/2.a43a11b8.chunk.js.map",
+    "static/js/3.470beac1.chunk.js": "/DemoPages/static/js/3.470beac1.chunk.js",
+    "static/js/3.470beac1.chunk.js.map": "/DemoPages/static/js/3.470beac1.chunk.js.map",
+    "index.html": "/DemoPages/index.html",
+    "static/css/2.f3081fb4.chunk.css.map": "/DemoPages/static/css/2.f3081fb4.chunk.css.map",
+    "static/css/main.2ba2a9c0.chunk.css.map": "/DemoPages/static/css/main.2ba2a9c0.chunk.css.map",
+    "static/js/2.a43a11b8.chunk.js.LICENSE.txt": "/DemoPages/static/js/2.a43a11b8.chunk.js.LICENSE.txt",
+    "static/media/error404.9165f30e.png": "/DemoPages/static/media/error404.9165f30e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed6111fa.js",
+    "static/css/2.f3081fb4.chunk.css",
+    "static/js/2.a43a11b8.chunk.js",
+    "static/css/main.2ba2a9c0.chunk.css",
+    "static/js/main.a289947b.chunk.js"
+  ]
+}
